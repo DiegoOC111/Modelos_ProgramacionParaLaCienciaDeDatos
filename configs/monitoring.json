@@ -1,0 +1,14 @@
+{
+  "selected_model": "base_cnn",
+  "selected_model_path": "C:\\Users\\TeaDyDy\\Documents\\New project\\artifacts\\models\\base_cnn.pt",
+  "thresholds": {
+    "input_drift_psi": 0.2,
+    "minimum_f1_score": 0.8,
+    "minimum_recall": 0.85
+  },
+  "retraining_policy": {
+    "trigger_on_low_recall": true,
+    "trigger_on_input_drift": true,
+    "evaluation_window_predictions": 250
+  }
+}
