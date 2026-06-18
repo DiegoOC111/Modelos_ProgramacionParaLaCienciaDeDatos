@@ -289,4 +289,3 @@ La configuracion de monitoreo se encuentra en `../configs/monitoring.json` e inc
 - No hay servidor API implementado; solo existe el contrato esperado.
 - No hay pruebas automatizadas dedicadas en una carpeta `tests/`.
 - El entrenamiento puede tardar bastante en CPU.
-- El README original mencionaba otros notebooks que no estan presentes en el workspace actual.
