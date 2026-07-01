@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  pneumonia-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pneumonia_detection_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./configs:/app/configs
+    environment:
+      - ENV=production
+      - RUN_PROFILE=verify
+    restart: always
